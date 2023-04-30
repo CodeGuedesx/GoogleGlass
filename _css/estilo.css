@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sigmar&family=Ubuntu:wght@300&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+
+/* ============= BODY ============= */
+
+body
+{
+    background-color: #e3e3e3;
+
+}
+
+
+/* ==========  PARAGRÁFO / TEXTOS ================ */
+
+h1 {
+    color: #000000;
+}
+
+/* =X=X=X=XX==X=X=XX=X=X=X=X=X=X=X */
+
+h2 {
+    color: #000000;
+}
+
+/* =X=X=X=XX==X=X=XX=X=X=X=X=X=X=X */
+
+h3 {
+    color: #000000;
+}
+
+/* =X=X=X=XX==X=X=XX=X=X=X=X=X=X=X */
+
+h4 {
+    color: #000000;
+}
+
+/* =X=X=X=XX==X=X=XX=X=X=X=X=X=X=X */
+
+p
+{
+    text-indent: 50px;
+    text-align: justify;
+    color: #000000;
+
+}
+
+hgroup#especificacoes p {
+    text-align: justify;
+    text-indent: 1px;
+}
+
+figure.foto-legenda {
+    color: white;
+    border: 10px solid white;
+    box-shadow: 1px 1px 6px black;
+    position: relative;
+    transition: 0.5s;
+    }
+
+figure.foto-legenda figcaption {
+
+    opacity: 0;
+    top: 1px;
+    background-color: rgba(0,0,0,0.4);
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    transition: 1s;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+figure.foto-legenda img {
+
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda:hover {
+
+    border: 10px solid #343434;
+    position: relative;
+
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+
+}
+/* XXXXXXXXX   MENU     XXXXXXX */
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu ul {
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top:-20px ;
+    right: 480px;
+    color: white;
+}
+
+nav#menu li{
+    position: relative;
+    display: inline-block;
+    background-color: #6e6e6e;
+    padding: 10px;
+    margin: 3px;
+    left: 3px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    box-shadow: 1px 1px 4px black;
+}
+
+nav#menu li:hover {
+    text-shadow: 1px 1px 3px #858585;
+    background-color: #d30d0d;
+    text-decoration-color: white;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* LIMITANDO CONTEÚDO / CORPO */
+
+div#interface {
+    width: 900px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin: -20px auto 0px auto;
+    padding: 20px;
+}
+
+img#icone{
+
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+header#cabecalho {
+
+    border-bottom: 1px #868686 solid;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 77px;
+}
+
+header#cabecalho h1 {
+
+    font-family: "FonteLogo";
+    font-size: 30pt;
+    color: grey;
+    padding: 1px;
+    margin-bottom: -15px;
+
+
+}
+
+header#cabecalho h2 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 15pt;
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-bottom: 50px;
+
+
+}
+hgroup#producao h1 {
+
+        padding-top: -20px;
+
+}
+
+section#corpo {
+
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #868686;
+    padding-right: 15px;
+
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+
+/* RODAPE */
+
+footer#rodape {
+
+    clear:both;
+    border-top: 1px solid #868686;
+
+}
+
+footer#rodape p {
+    text-align: center;
+}
+footer#rodape a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+footer#rodape img {
+    width: 20px;
+    margin: -1px 20px 200px -1px;
+    position: absolute;
+
+}
+
+/* TABELA */
+
+table#tabelaspec {
+
+    border: 1px solid #5a5959;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table#tabelaspec td {
+    border: 1px solid #5A5959;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+table#tabelaspec td.ce {
+    vertical-align: top;
+    background-color: #5A5959;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+
+}
+table#tabelaspec td.cd {
+    background-color: #dcdada;
+    color: black;
+    text-align: left;
+}
+
+table#tabelaspec caption {
+    font-weight: bold;
+    color: #7f7e7e;
+    font-size: 13pt;
+}
+
+table#tabelaspec caption span {
+    font-size: 8pt;
+    display: block;
+    float: right;
+    margin-top: 9px;
+}
