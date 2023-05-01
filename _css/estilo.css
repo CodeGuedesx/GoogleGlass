@@ -11,7 +11,8 @@
 
 body
 {
-    background-color: #e3e3e3;
+    background: radial-gradient(circle, rgba(38,194,255,1) 0%, rgba(6,6,48,1) 87%);
+
 
 }
 
@@ -105,7 +106,7 @@ nav#menu ul {
     list-style: none;
     position: absolute;
     top:-20px ;
-    right: 377px;
+    right: 500px;
     color: white;
 }
 
@@ -125,7 +126,7 @@ nav#menu li{
 
 nav#menu li:hover {
     text-shadow: 1px 1px 3px #858585;
-    background-color: #d30d0d;
+    background-color: #2d3b7c;
     text-decoration-color: white;
 }
 
@@ -137,7 +138,7 @@ nav#menu a {
 }
 
 nav#menu a:hover {
-    color: #ffffff;
+    color: #8db2de;
     text-decoration: none;
 }
 
@@ -145,7 +146,7 @@ nav#menu a:hover {
 
 div#interface {
     width: 900px;
-    background-color: white;
+    background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     margin: -20px auto 0px auto;
     padding: 20px;
@@ -156,11 +157,12 @@ img#icone{
     position: absolute;
     right: 400px;
     top: 50px;
+
 }
 
 header#cabecalho {
 
-    border-bottom: 1px #868686 solid;
+    border-bottom: 1px #225d7c solid;
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 77px;
 }
 
@@ -168,10 +170,10 @@ header#cabecalho h1 {
 
     font-family: "FonteLogo";
     font-size: 30pt;
-    color: grey;
+    color: #5478c9;
     padding: 1px;
     margin-bottom: -15px;
-
+   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 
 }
 
@@ -179,8 +181,8 @@ header#cabecalho h2 {
 
     font-family: 'Playfair Display', serif;
     font-size: 15pt;
-    color: #000000;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    color: #5874e5;
+    text-shadow: 1px 1px 2px rgba(75, 75, 75, 0.3);
     padding: 0px;
     margin-bottom: 50px;
 
@@ -195,27 +197,30 @@ hgroup#producao h1 {
 article#noticia-principal h2{
     font-size: 12pt;
     padding: 5px 1px 3px 10px;
-    background-color: #c8ccd1;
+    background-color: #4a89be;
     margin: 10px 0px 10px 0px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
 
 }
 
 header#cabecalho-artigo h1 {
     font-family:  "FonteLogo";
     font-size: 21pt;
-    color: #6e6e6e;
+    color: #1d618c;
     margin-bottom: -14px;
+
 
 }
 header#cabecalho-artigo h2 {
     font-size: 13pt;
-    color: #b0b2b6;
+    color: #000000;
     background-color: white;
     margin-top: 1px;
 
 }
 a {
-    color: #8f9195;
+    color: #0f41a8;
     text-decoration: none;
     font-weight: bolder;
 
@@ -235,7 +240,7 @@ section#corpo {
     display: block;
     width: 500px;
     float: left;
-    border-right: 1px solid #868686;
+    border-right: 1px solid #1b1875;
     padding-right: 15px;
 
 }
@@ -252,7 +257,7 @@ aside#lateral {
 footer#rodape {
 
     clear:both;
-    border-top: 1px solid #868686;
+    border-top: 1px solid #1b1875;
 
 }
 
@@ -262,7 +267,7 @@ footer#rodape p {
 footer#rodape a {
 
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-weight: bolder;
 
 }
@@ -277,23 +282,24 @@ footer#rodape img {
 
 table#tabelaspec {
 
-    border: 1px solid #5a5959;
+    border: 1px solid #5d59cc;
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
 
 }
 table#tabelaspec td {
-    border: 1px solid #5A5959;
+    border: 1px solid #5d59cc;
     padding: 8px;
     text-align: center;
     vertical-align: middle;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 
 }
 
 table#tabelaspec td.ce {
     vertical-align: top;
-    background-color: #5A5959;
+    background-color: #5d59cc;
     color: white;
     font-weight: bold;
     text-align: right;
@@ -307,7 +313,7 @@ table#tabelaspec td.cd {
 
 table#tabelaspec caption {
     font-weight: bold;
-    color: #7f7e7e;
+    color: #0167c9;
     font-size: 13pt;
 }
 
