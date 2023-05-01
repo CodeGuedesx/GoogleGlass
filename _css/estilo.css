@@ -192,6 +192,44 @@ hgroup#producao h1 {
 
 }
 
+article#noticia-principal h2{
+    font-size: 12pt;
+    padding: 5px 1px 3px 10px;
+    background-color: #c8ccd1;
+    margin: 10px 0px 10px 0px;
+
+}
+
+header#cabecalho-artigo h1 {
+    font-family:  "FonteLogo";
+    font-size: 21pt;
+    color: #6e6e6e;
+    margin-bottom: -14px;
+
+}
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #b0b2b6;
+    background-color: white;
+    margin-top: 1px;
+
+}
+a {
+    color: #8f9195;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.direita {
+    font-size: 10pt;
+    text-align: right;
+    margin-bottom: -10px;
+}
+
+header#cabecalho-artigo h3 {
+
+}
+
 section#corpo {
 
     display: block;
